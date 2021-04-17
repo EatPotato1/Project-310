@@ -70,3 +70,8 @@ You will need to download and install NLTK and Spacy in your python IDE before u
 - Added synonym recognition. NovaBot now will close whenever a user inputs synonyms of the word "bye". Previously, the user could only terminate the program is they typed the word "goodbye" so this addition allows them more flexibility.
 - Added POS-tagging. This feature was to be used to extract words that seemed unnecessary during the preprocessing. However, the feature was not used since the alternative NLP tools that we implemented already took care of those words.
 - Added a function from Phrasal that normalized sentences. This feature allows NovaBot to recognize user input even if it contains special characters, apostrophes or extra spaces. It is just another feature to help NovaBot recognize more user inputs.
+
+# API 
+
+- Added Google translate API to the Novabot, it give Novabot the ability to translate the contents from english to french if the user input any synonyms of "translate". It gives the user more options and makes Novabot more fexiable. 
+- Added Google geocoding API to the Novabot, This gives the ability to calculate the distances between two object. Novabot will give user the routes between two objects when the user input "direct" and two places user want to test. This gives user more options and makes Novabot more fexiable. 
